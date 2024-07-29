@@ -150,6 +150,7 @@ body {
         background-image: url(images/background.png);
         background-size: cover;
         padding: 2rem;
+        overflow-y: hidden;
     }
     .area-background {
         display: none;
