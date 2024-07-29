@@ -13,6 +13,10 @@ body {
     grid-template-columns: 1.9fr 1.1fr;
 }
 
+.header-responsivo {
+    display: none;
+}
+
 .area-background {
     background-image: url(images/background.png);
     background-size: cover;
@@ -21,15 +25,14 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
-.area-background img {
+.area-background img, .header-responsivo img {
     width: 6rem;
     filter: drop-shadow(rgba(255, 255, 255, 0.35) 0px 5px 15px); 
 }
 
-.area-background h3 {
+.area-background h3, .header-responsivo h3 {
     color: white;
     filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
     font-size: 2rem;
@@ -150,7 +153,15 @@ body {
         background-image: url(images/background.png);
         background-size: cover;
         padding: 2rem;
+        padding-top: 0;
         overflow-y: hidden;
+    }
+    .header-responsivo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        transform: scale(0.8);
     }
     .area-background {
         display: none;
