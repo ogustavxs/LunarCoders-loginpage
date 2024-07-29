@@ -170,4 +170,7 @@ body {
     .formulario-de-login label {
         margin-top: .5rem;
     }
+    .container h4 {
+        margin: 0 1.5rem;
+    }
 }
