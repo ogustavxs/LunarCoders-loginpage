@@ -154,7 +154,6 @@ body {
         background-size: cover;
         padding: 2rem;
         padding-top: 0;
-        overflow-y: hidden;
     }
     .header-responsivo {
         display: flex;
