@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #262626; 
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2.5rem;
+    box-shadow: 0px 8px 40px #a21caf;
+    background-color: #131313;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.8rem;
+    gap: 2.3rem;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition: color .2s ease-in-out;
+}
+
+header img {
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+header #perfilimg {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 6rem;
+    filter: drop-shadow(rgba(255, 255, 255, 0.35) 0px 5px 15px); 
+}
+
+.logo h3{
+    color: white;
+    filter: drop-shadow(rgba(0, 0, 0, 0.35) 0px 5px 15px);
+    font-size: 2rem;
+}
+
+header ul li a:hover {
+    color: #a21caf;
+    border-bottom: .1rem solid rgba(162, 28, 175, 0.35);
+    transition: color .2s ease-in-out;
+}
+
+header #perfilimg:hover {
+    outline: .1rem solid #a21caf;
+    box-shadow: rgba(162, 28, 175, 0.24) 0px 6px 16px;
+}
+
+.bem-vindo {
+    grid-area: bemvindo;
+}
+
+.projetos {
+    grid-area: projetos;
+    background-color: #3e3e3e;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.projetos h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.galeria-de-projetos {
+    display: flex;
+    margin: auto 0;
+    gap: 1.5rem;
+}
+
+.galeria-de-projetos a {
+    text-decoration: none;
+    color: #131313;
+}
+
+.galeria-de-projetos img {
+    width: 12rem;
+}
+
+.galeria-de-recursos img {
+    width: 6rem;
+}
+.recursos {
+    grid-area: recursos;
+    background-color: #3e3e3e;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.galeria-de-recursos {
+    display: flex;
+    margin: auto 0;
+    gap: 1.5rem;
+}
+
+.galeria-de-recursos div {
+    background-color: #262626;
+    padding: .7rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.galeria-de-recursos div a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-top: .7rem;
+}
+
+.recursos h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: .6rem;
+}
+
+.comunidade .atalhos-rapidos {
+    grid-area: atalhos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+    box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.atalhos-rapidos .sites {
+    display: flex;
+    gap: 2rem;
+}
+
+#atalhos {
+    color: #cf6eff;
+    font-size: 2.3rem
+}
+
+.atalhos-rapidos .sites div img{
+    border-radius: 50%;
+    border: .1rem solid #a21caf;
+}
+
+.comunidade .desafios {
+    grid-area: desafios;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 1rem;
+    padding: 1rem .3rem;
+    gap: 1rem;
+    box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.desafios .galeria-de-desafios {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.desafios .galeria-de-desafios div {
+    max-width: 8rem;
+    color: white;
+    border-radius: .2rem;
+    background-color: #a21caf;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.desafios .galeria-de-desafios div h2 {
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+}
+
+.desafios .galeria-de-desafios div h3 {
+    font-weight: 400;
+}
+
+.desafios .galeria-de-desafios a {
+    text-decoration: none;
+}
+
+#desafios {
+    color: #cf6eff;
+    font-size: 2.3rem
+}
+
+.comunidade .titulo-geral-comunidade {
+    grid-area: titulo;
+}
+
+#atalhos, #desafios {
+    font-weight: 500;
+    letter-spacing: .08rem;
+    margin-bottom: auto;
+}
+
+.comunidade {
+    grid-area: comunidade;
+    background-color: #3e3e3e;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-areas: 
+        ". . . ."
+        ". titulo titulo ."
+        ". atalhos desafios ."
+        ". . . ."
+    ;
+    gap: .3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+.comunidade #titulo {
+    text-align: center;
+    font-size: 2.4rem;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: .6rem;
+}
+
+.comunidade img {
+    width: 6rem;
+}
+
+
+.recursos, .projetos, .comunidade {
+    border-radius: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+        ". bemvindo bemvindo ."
+        ". projetos recursos ."
+        ". comunidade comunidade ."
+    ;
+    gap: 1rem;
+}
+
+.bem-vindo {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.bem-vindo span {
+    color: #a21caf;
+}
+
+
+footer {
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    background-color: #131313;
+    margin-top: 2rem;
+}
