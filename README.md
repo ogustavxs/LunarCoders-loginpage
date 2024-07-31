@@ -6,7 +6,7 @@ LunarCoders é um projeto de teste criado para praticar habilidades de HTML e CS
 
 ## Captura de Tela
 
-<img src="preview/preview-pc.png" alt="Preview PC" width=800> <img src="preview/preview-mobile.png" alt="Preview mobile" width=162>
+<img src="preview/preview-pc.png" alt="Preview PC" width=800> <img src="preview/preview-pc-homepage.png" alt="Preview PC" width=800> <img src="preview/preview-mobile.png" alt="Preview mobile" width=162>
 
 ## Tecnologias Utilizadas
 
