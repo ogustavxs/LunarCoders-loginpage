@@ -159,8 +159,10 @@ header #perfilimg:hover {
     align-items: center;
     background-color: #262626;
     border-radius: 1rem;
+    gap: 1.5rem;
     padding: 1rem;
-    padding-bottom: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -183,12 +185,12 @@ header #perfilimg:hover {
     grid-area: desafios;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #262626;
     border-radius: 1rem;
     padding: 1rem .3rem;
-    gap: 1rem;
+
     box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -224,7 +226,7 @@ header #perfilimg:hover {
 
 #desafios {
     color: #cf6eff;
-    font-size: 2.3rem
+    font-size: 2.3rem;
 }
 
 .comunidade .titulo-geral-comunidade {
@@ -234,7 +236,6 @@ header #perfilimg:hover {
 #atalhos, #desafios {
     font-weight: 500;
     letter-spacing: .08rem;
-    margin-bottom: auto;
 }
 
 .comunidade {
@@ -259,7 +260,7 @@ header #perfilimg:hover {
     font-size: 2.4rem;
     color: white;
     padding-top: 2rem;
-    padding-bottom: .6rem;
+    padding-bottom: 2rem;
 }
 
 .comunidade img {
