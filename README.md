@@ -16,8 +16,9 @@ LunarCoders é um projeto de teste criado para praticar habilidades de HTML e CS
 
 ## Estrutura do Projeto
 
-- `index.html`: Estrutura HTML do site.
-- `styles.css`: Estilo CSS do site.
+- `index.html`: Estrutura HTML do area do login.
+- `styles.css`: Estilo CSS do login.
+- `home-page/`: Home page do site, disponivel após o login
 - `images/`: Pasta contendo as imagens utilizadas no site (incluindo o fundo e o logo).
 - `preview/`: Pasta contendo as imagens de preview do site
 
