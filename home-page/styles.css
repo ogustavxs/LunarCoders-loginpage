@@ -100,6 +100,15 @@ header #perfilimg:hover {
     gap: 1.5rem;
 }
 
+.galeria-de-projetos div {
+    padding: .2rem;
+}
+
+.galeria-de-projetos div:hover {
+    background-color: #f6e5ff;
+    border-radius: .1rem;
+}
+
 .galeria-de-projetos a {
     text-decoration: none;
     color: #131313;
@@ -112,6 +121,7 @@ header #perfilimg:hover {
 .galeria-de-recursos img {
     width: 6rem;
 }
+
 .recursos {
     grid-area: recursos;
     background-color: #3e3e3e;
@@ -179,6 +189,13 @@ header #perfilimg:hover {
 .atalhos-rapidos .sites div img{
     border-radius: 50%;
     border: .1rem solid #a21caf;
+    transition: transform .1s ease-out;
+}
+
+.atalhos-rapidos .sites div img:hover {
+    transform: scale(110%);
+    border: .1rem solid white;
+    transition: transform .1s ease-in;
 }
 
 .comunidade .desafios {
@@ -209,6 +226,14 @@ header #perfilimg:hover {
     display: flex;
     flex-direction: column;
     gap: .3rem;
+    transition: all .1s ease-out;
+}
+
+.desafios .galeria-de-desafios div:hover {
+    background-color: white;
+    color: #a21caf;
+    transform: scale(107%);
+    transition: all .1s ease-in;
 }
 
 .desafios .galeria-de-desafios div h2 {
@@ -292,6 +317,9 @@ main {
     color: #a21caf;
 }
 
+.bem-vindo span:hover {
+    border-bottom: .1rem solid #a21caf;
+}
 
 footer {
     width: 100vw;
