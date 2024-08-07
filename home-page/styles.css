@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 2.5rem;
+    padding: 0 2rem 0 0;
     box-shadow: 0px 8px 40px #a21caf;
     background-color: #131313;
 }
@@ -28,7 +28,6 @@ header ul {
     display: flex;
     font-size: 1.8rem;
     gap: 2.3rem;
-
 }
 
 header a {
@@ -88,7 +87,7 @@ header #perfilimg:hover {
 }
 .projetos h1 {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -101,25 +100,39 @@ header #perfilimg:hover {
 }
 
 .galeria-de-projetos div {
-    padding: .2rem;
+    padding: .4rem;
+    text-align: center;
 }
 
 .galeria-de-projetos div:hover {
-    background-color: #f6e5ff;
+    background-color: #313131;
     border-radius: .1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 
 .galeria-de-projetos a {
     text-decoration: none;
-    color: #131313;
+    color: #f6e5ff;
+    
 }
 
 .galeria-de-projetos img {
     width: 12rem;
+    height: 8rem;
+}
+
+.galeria-de-projetos h3 {
+    max-width: 12rem;
+    font-size: 1.1rem;
+}
+
+.galeria-de-projetos h4{
+    font-size: 1rem;
 }
 
 .galeria-de-recursos img {
-    width: 6rem;
+    width: 7rem;
 }
 
 .recursos {
@@ -140,23 +153,28 @@ header #perfilimg:hover {
 
 .galeria-de-recursos div {
     background-color: #262626;
-    padding: .7rem;
+    padding: 1rem;
     border-radius: 1rem;
     text-align: center;
     box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.galeria-de-recursos div:hover {
+    outline: .1rem solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 
 .galeria-de-recursos div a {
     text-decoration: none;
     color: white;
-    font-size: 1rem;
+    font-size: 1.4rem;
     padding-top: .7rem;
 }
 
 .recursos h1 {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     color: white;
     padding-top: 2rem;
     padding-bottom: .6rem;
@@ -178,18 +196,31 @@ header #perfilimg:hover {
 
 .atalhos-rapidos .sites {
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
+}
+
+.atalhos-rapidos .sites div {
+    text-align: center;
+}
+
+.atalhos-rapidos .sites div a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
 }
 
 #atalhos {
     color: #cf6eff;
-    font-size: 2.3rem
+    font-size: 2.7rem
 }
 
 .atalhos-rapidos .sites div img{
     border-radius: 50%;
     border: .1rem solid #a21caf;
     transition: transform .1s ease-out;
+    margin-bottom: .2rem;
 }
 
 .atalhos-rapidos .sites div img:hover {
@@ -220,6 +251,7 @@ header #perfilimg:hover {
 .desafios .galeria-de-desafios div {
     max-width: 8rem;
     color: white;
+    outline: .1rem solid white;
     border-radius: .2rem;
     background-color: #a21caf;
     padding: .5rem;
@@ -251,7 +283,7 @@ header #perfilimg:hover {
 
 #desafios {
     color: #cf6eff;
-    font-size: 2.3rem;
+    font-size: 2.7rem;
 }
 
 .comunidade .titulo-geral-comunidade {
@@ -274,7 +306,7 @@ header #perfilimg:hover {
         ". atalhos desafios ."
         ". . . ."
     ;
-    gap: .3rem;
+    gap: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -282,14 +314,14 @@ header #perfilimg:hover {
 
 .comunidade #titulo {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 .comunidade img {
-    width: 6rem;
+    width: 6.5rem;
 }
 
 
