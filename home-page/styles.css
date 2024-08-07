@@ -124,11 +124,15 @@ header #perfilimg:hover {
 
 .galeria-de-projetos h3 {
     max-width: 12rem;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
+    font-weight: 700;
 }
 
 .galeria-de-projetos h4{
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
+    font-weight: 500;
 }
 
 .galeria-de-recursos img {
@@ -168,6 +172,7 @@ header #perfilimg:hover {
 .galeria-de-recursos div a {
     text-decoration: none;
     color: white;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.4rem;
     padding-top: .7rem;
 }
@@ -206,7 +211,8 @@ header #perfilimg:hover {
 .atalhos-rapidos .sites div a {
     text-decoration: none;
     color: white;
-    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     font-size: 1.3rem;
     letter-spacing: .1rem;
 }
@@ -274,7 +280,12 @@ header #perfilimg:hover {
 }
 
 .desafios .galeria-de-desafios div h3 {
-    font-weight: 400;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.desafios .galeria-de-desafios div h4 {
+    font-family: "Montserrat", sans-serif;
 }
 
 .desafios .galeria-de-desafios a {
